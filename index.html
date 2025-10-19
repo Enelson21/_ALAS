@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio Atlas - Oruro, Bolivia</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icono" href="imagenes/atlas_icono.png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/logo gym atlas.jpg" alt="Gimnasio Atlas" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="membresias.html">Membresías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactos.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- inicio -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title mb-4">Transforma tu cuerpo, transforma tu vida</h1>
+                    <p class="lead mb-5">En Gimnasio Atlas ofrecemos el mejor ambiente y equipamiento para que alcances tus metas fitness en Oruro, Bolivia.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="membresias.html" class="btn btn-primary">Ver Membresías</a>
+                        <a href="contactos.html" class="btn btn-outline-light">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-5">
+        <div class="container py-5">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Equipo moderno">
+                        <div class="card-body text-center">
+                            <div class="service-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <h3 class="card-title">Equipo Moderno</h3>
+                            <p class="card-text">Máquinas de última generación para cardio y fuerza, importadas de los mejores fabricantes.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Entrenadores">
+                        <div class="card-body text-center">
+                            <div class="service-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h3 class="card-title">Entrenadores Certificados</h3>
+                            <p class="card-text">Profesionales capacitados para guiarte en tu proceso de transformación física.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card">
+                        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Clases grupales">
+                        <div class="card-body text-center">
+                            <div class="service-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3 class="card-title">Clases Grupales</h3>
+                            <p class="card-text">Variedad de clases dirigidas por expertos para todos los niveles y objetivos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería - Carrusel de Imágenes -->
+    <section id="galeria" class="py-5 bg-light">
+        <div class="container py-5">
+            <h2 class="section-title">Nuestras Instalaciones</h2>
+
+            <div id="carouselInstalaciones" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="imagenes/img 1.jpg" class="d-block w-100" alt="Clase grupal">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/img 2.jpg" class="d-block w-100" alt="Zona de pesas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/img 3.jpg" class="d-block w-100" alt="Máquinas modernas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/img 4.jpg" class="d-block w-100" alt="Área de cardio">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/img 5.jpg" class="d-block w-100" alt="Entrenamiento personal">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/img 6.jpg" class="d-block w-100" alt="Área de stretching">
+                    </div>
+                </div>
+        <!-- Controles -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselInstalaciones" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselInstalaciones" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+
+                <!-- Indicadores -->
+                <div class="carousel-indicators mt-4">
+                    <button type="button" data-bs-target="#carouselInstalaciones" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselInstalaciones" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselInstalaciones" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselInstalaciones" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselInstalaciones" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselInstalaciones" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <img src="imagenes/logo gym atlas.jpg" alt="Gimnasio Atlas" height="50" class="mb-3">
+                    <p>El mejor gimnasio de Oruro para transformar tu vida y alcanzar tus metas fitness.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#inicio" class="text-white">Inicio</a></li>
+                        <li class="mb-2"><a href="membresias.html" class="text-white">Membresías</a></li>
+                        <li class="mb-2"><a href="contactos.html" class="text-white">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Calle Bolívar #123, Oruro</li>
+                        <li class="mb-2"><i class="fas fa-phone-alt me-2"></i> +591 12345678</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> contacto@gimnasioatlas.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>Horario</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">Lunes a Viernes: 6:00 - 22:00</li>
+                        <li class="mb-2">Sábado: 8:00 - 20:00</li>
+                        <li class="mb-2">Domingo: 9:00 - 14:00</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 Gimnasio Atlas. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-3">Términos y condiciones</a>
+                    <a href="#" class="text-white">Política de privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>

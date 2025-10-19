@@ -1,0 +1,115 @@
+ body {
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+        background-color: rgba(0, 0, 0, 0.478);
+    }
+
+/* Navbar estilo Canva */
+        .navbar {
+            background-color: rgb(0, 0, 0);
+            box-shadow: 0 2px 10px rgb(97, 65, 6);
+            transition: all 2s;
+        }
+        
+        .navbar-toggler{
+            background-color: white;
+        }
+        .navbar.scrolled {
+            background-color:rgb(163 43 43) !important;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        
+        .nav-link {
+            color:white !important;
+            font-weight: 600;
+            margin: 0 10px;
+            position: relative;
+        }
+        
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background-color:#ffffff;
+            transition: width 0.3s;
+        }
+        
+        .nav-link:hover:after {
+            width: 100%;
+        }
+
+
+/* Footer */
+        footer {
+            background-color: black;
+            color: white;
+            padding: 50px 0 20px;
+        }
+        
+        .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            margin-right: 10px;
+            transition: all 0.3s;
+        }
+        
+        .social-icon:hover {
+            background-color: var(--primary);
+            transform: translateY(-5px);
+        }
+
+/* CATALOGO*/
+    .card {
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+      align-items: center;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .card img {
+      height: 50%;
+      width: 50%;
+      object-fit: cover;
+    }
+    .btn-custom {
+      background-color: #000;
+      color: #fff;
+      border-radius: 10px;
+      padding: 10px 20px;
+      transition: 0.3s ease;
+    }
+    .btn-custom:hover {
+      background-color:  rgb(163 43 43);
+      color: #fff;
+    }
+    h2 {
+      text-align: center;
+      margin: 40px 0 20px 0;
+      font-weight: bold;
+    }
+  
+   .my-3 {
+    margin-top: 7rem !important;
+    margin-bottom: 1rem !important;
+    }
+    .nav-productos a {
+      margin: 0 10px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s ease;
+    }
+    .nav-productos a:hover {
+      color: rgb(163 43 43) ;
+    }
