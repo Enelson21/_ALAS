@@ -172,36 +172,6 @@
             color: white;
         }
         
-        /* Entrenadores */
-        .trainer-card {
-            position: relative;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
-        }
-        
-        .trainer-img {
-            width: 100%;
-            height: 350px;
-            object-fit: cover;
-            transition: transform 0.5s;
-        }
-        
-        .trainer-card:hover .trainer-img {
-            transform: scale(1.1);
-        }
-        
-        .trainer-info {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
-            padding: 20px;
-            color: white;
-        }
-        
         /* Galería */
 
         .bg-light {
@@ -322,3 +292,4 @@
             padding-top: 4rem;
            
         }
+
